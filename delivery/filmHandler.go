@@ -46,11 +46,16 @@ func (f *FilmHandler) ReturnAllFilms(w http.ResponseWriter, r *http.Request) {
 }
 
 func (f *FilmHandler) ReturnFindFilm(w http.ResponseWriter, r *http.Request) {
-	//var responseStud utils.Response
+	var response utils.Response
 	w.Header().Set("Content-Type", "application/json")
 	code := utils.DecodePathVariable("film_id", r)
 	result, err := f.filmUseCase.GetFilmByID(code)
-	data, err := json.Marshal(result)
+
+	response.Status = http.StatusOK
+	response.Message = "Success: Film SelectByID"
+	response.Result = result
+	data, err := json.Marshal(response)
+
 	if err != nil {
 		log.Println(err)
 		w.Write([]byte("Error occurred"))
