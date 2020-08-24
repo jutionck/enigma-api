@@ -1,7 +1,4 @@
-## Golang REST API (simple ecommerce)
-
-### Import database
-Download here <a href="https://github.com/jutionck/enigma-netflix-api/blob/master/enigma_netflix.sql" target="_blank">enigma_netflix</a>
+## Golang REST API
 
 ### Setting connection
 Setting connection in .env file, if doesn't exist, make it and put in root project:
