@@ -1,4 +1,4 @@
-module github.com/jutionck/enigma-netflix-api
+module github.com/jutionck/enigma-bank-api
 
 go 1.14
 

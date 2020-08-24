@@ -3,7 +3,7 @@ package config
 import (
 	"fmt"
 	"github.com/gorilla/mux"
-	"github.com/jutionck/enigma-netflix-api/utils"
+	"github.com/jutionck/enigma-bank-api/utils"
 	"log"
 	"net/http"
 )

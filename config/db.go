@@ -3,7 +3,7 @@ package config
 import (
 	"database/sql"
 	"fmt"
-	"github.com/jutionck/enigma-netflix-api/utils"
+	"github.com/jutionck/enigma-bank-api/utils"
 	"log"
 
 	//for connection mysql db

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/jutionck/enigma-netflix-api/config"
-	"github.com/jutionck/enigma-netflix-api/delivery"
+	"github.com/jutionck/enigma-bank-api/config"
+	"github.com/jutionck/enigma-bank-api/delivery"
 )
 
 func main() {
